@@ -1,0 +1,22 @@
+.dots {
+  width: 100vw;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+
+  &__item {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: $color-gray-5;
+
+    &:not(.dots__item--active) {
+      cursor: pointer;
+    }
+
+    &--active {
+      background-color: $color-gray-6;
+    }
+  }
+}

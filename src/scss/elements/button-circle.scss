@@ -1,0 +1,90 @@
+$color-gray-4: #7E7E82;
+$color-red-1: #ff3e79;
+
+.button-circle {
+	width: 40px;
+	height: 40px;
+	background-color:$color-red-1;
+	border-radius: 50%;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+.button-circle--burger {
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("../img/burger.svg");
+}
+.button-circle--call {
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../img/call.svg");
+	&:hover {
+		box-shadow: 0 0 5px 0 rgb(173, 10, 10);
+		transform: scale(1.2);
+	}
+}
+.button-circle--message {
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../img/message.svg");
+	&:hover {
+		box-shadow: 0 0 5px 0 rgb(173, 10, 10);
+		transform: scale(1.2);
+	}
+}
+.button-circle--man {
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../img/man.svg");
+	&:hover {
+		box-shadow: 0 0 5px 0 rgb(173, 10, 10);
+		transform: scale(1.2);
+	}
+}
+.button-circle--repair {
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../img/rapair.svg");
+	&:hover {
+		box-shadow: 0 0 5px 0 rgb(173, 10, 10);
+		transform: scale(1.2);
+	}
+}
+.button-circle--search {
+	
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../img/search.svg");
+	&:hover {
+		box-shadow: 0 0 5px 0 rgb(173, 10, 10);
+		transform: scale(1.2);
+	}
+}
+.button-circle--cloose {
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../img/icon.svg");
+	&:hover {
+		box-shadow: 0 0 5px 0 rgb(173, 10, 10);
+		transform: scale(1.2);
+	}
+}
+.burger-menu__lang-link--active {
+	color: $color_1;
+}
+.burger-menu__lang-link {
+	&:hover {
+		box-shadow: 0 0 5px 0$color-gray-4;
+	}
+}

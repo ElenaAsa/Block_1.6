@@ -1,0 +1,16 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  height: 40px;
+  background: $color-red-1;
+  border: none;
+  color: $color-white-1;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color, box-shadow 0.3s ease;
+
+ 
+}
+  

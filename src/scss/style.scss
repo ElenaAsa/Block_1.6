@@ -1,0 +1,27 @@
+@import './common/normalize.scss';
+@import './common/variables.scss';
+@import './common/fonts.scss';
+@import './common/page.scss';
+@import './common/content.scss';
+
+// elements
+@import './elements/button.scss';
+@import './elements/divider.scss';
+@import './elements/block-header.scss';
+@import './elements/read-more.scss';
+@import './elements/dots.scss';
+@import './elements/button-circle.scss';
+@import './elements/red-button.scss';
+
+// blocks
+@import './blocks/sidebar.scss';
+@import './blocks/main.scss';
+@import './blocks/header.scss';
+@import './blocks/title.scss';
+@import './blocks/slide.scss';
+
+@import './blocks/brands.scss';
+@import './blocks/views.scss';
+@import './blocks/price.scss';
+@import './blocks/footer-block.scss';
+@import './blocks/drawer.scss';

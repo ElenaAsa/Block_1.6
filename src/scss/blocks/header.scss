@@ -1,0 +1,124 @@
+$color-white-1: #ffffff;
+
+/*
+.header {
+  display: none;
+  background-color: $color-white-1;
+  border-bottom: 1px solid $color-blue-2;
+  padding: 16px;
+}
+
+@media (max-width: $mq-desktop) {
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+}
+
+
+*/
+
+.container {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+	justify-content: space-between;
+	overflow: hidden;
+	background-color: $color-white-1;
+}
+@media (min-width: $mq-mobile) {
+	.header {
+		display: flex;
+		align-items: center;
+		padding: 0 16px;
+		box-sizing: border-box;
+		margin: 0;
+		height: 88px;
+		background-color: $color-white-2;
+		border-bottom: 1px solid #D9FFF5;
+	}
+	.menu-left {
+		padding: 0;
+		display: flex;
+		align-items: center;
+		padding-right: 16px;
+	}
+	.logo__link-img {
+		padding-left: 16px;
+		display: flex;
+	}
+	.menu-right {
+		display: none;
+	}
+
+	.header__burger::after{
+		content: "";
+		border-right: 3px solid $color-gray-2;
+		border-radius: 1px;
+		margin-left: 20px;
+		height: 40px;
+		position: absolute;
+	}
+	.menu-search {
+		display: flex;
+		align-items: center;
+		gap: 16.73px;
+		&::before {
+			display: block;
+			content: "";
+			background: url("../img/divider.svg") no-repeat;
+			width: 2px;
+			height: 32px;
+			margin-right: 4px;
+		}
+	}
+}
+@media (min-width:$mq-tablet) {
+	.header {
+		display: flex;
+		justify-content: flex-end;
+		padding-right: 8px;
+	}
+	.menu-left {
+		padding-left: 24px;
+		gap: 20px;
+		padding: 0;
+		display: flex;
+		align-items: center;
+	}
+	.header__menu-right {
+		display: flex;
+		margin-left: auto;
+	}
+	.menu-right {
+		display: flex;
+		align-items: center;
+		gap: 16.73px;
+		padding-right: 16px;
+	}
+	.menu-search {
+		padding-right: 16px;
+	}
+	.logo {
+		&::before {
+			position: absolute;
+			display: block;
+			content: "";
+			background: url("../img/divider2.svg") no-repeat;
+			width: 2px;
+			height: 32px;
+			margin-right: 5px;
+			margin-top: 11px;
+		}
+	}
+}
+@media (min-width:$mq-desktop) {
+	.header {
+		display: none;
+	}
+}
+
+

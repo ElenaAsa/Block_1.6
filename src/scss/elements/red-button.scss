@@ -1,0 +1,39 @@
+
+.red-button {
+	width: 119px;
+	height: 32px;
+	box-sizing: border-box;
+	padding-left: 18px;
+	padding-top: 3px;
+	text-align: left;
+	font-size: 12px;
+	color: $color-white-1;
+	text-transform: uppercase;
+	background-color: $color-red-1;
+	border-radius: 15px;
+	background-image: url("../img/arrow.png");
+	background-repeat: no-repeat;
+	background-position: 88% 50%;
+	border: none;
+}
+.red-button--price {
+	position: absolute;
+	left: 125px;
+	top: 150px;
+}
+@media (min-width: $mq-tablet) {
+	.red-button {
+		display: flex;
+		align-items: center;
+		position: relative;
+		top: 0;
+		left: 0;
+		margin: 10px;
+	}
+	.red-button--price {
+		display: flex;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+}

@@ -1,0 +1,18 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(100% - 300px);
+    gap: 20px;
+    background-color: $color-gray-1;
+    max-width: $mq-desktop;
+    justify-content: center;
+    padding: 0;
+    background-color:$color-gray-1;
+  }
+  
+  @media (max-width: $mq-desktop) {
+    .content {
+      flex-basis: 100%;
+    }
+  }
+  
