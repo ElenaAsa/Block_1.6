@@ -6,6 +6,7 @@ import initViews from './views'
 import initPrice from './price'
 
 
+
 initSidebar()
 initDrawer()
 initBrands()

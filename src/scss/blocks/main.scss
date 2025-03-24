@@ -1,26 +1,4 @@
 
-
-
-
-
-	.main__read-more {
-		position: relative;
-		background: none;
-		border: none;
-		font-size: 16px;
-		color:$color-dark-1;
-		margin-right: 150px;
-		padding-top: 16px;
-		padding-bottom: 16px;
-		&::before {
-			content: "";
-			display: inline-block;
-			background: url(../img/more.svg) 50% 50% no-repeat;
-			height: 11px;
-			width: 11px;
-			margin-right: 8px;
-		}
-	}
 	.main__text-box {
 		display: flex;
 		flex-direction: column;
@@ -68,18 +46,7 @@
 		font-size: 14px;
 		height: 160px;
 	}
-	.main__read-more {
-		display: flex;
-		align-items: center;
-		font-size: 16px;
-		gap: 8px;
-		padding-top: 16px;
-		padding-bottom: 16px;
-		padding-left: 16px;
-		color:$color-dark-2;
-		margin-left: 25px;
-		font-weight: 500;
-	}
+	
 	.main__image-container {
 		flex-basis: 50%;
 	}
@@ -98,4 +65,16 @@
 		flex-basis: 48%;
 		margin-right: 36px;
 	}
+}
+
+
+
+
+
+.hidden-text {
+    display: none; 
+}
+
+.hidden-text--expand {
+    display: block; 
 }

@@ -1,16 +1,95 @@
 .button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 40px;
-  height: 40px;
-  background: $color-red-1;
-  border: none;
-  color: $color-white-1;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: background-color, box-shadow 0.3s ease;
-
- 
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    height: 40px;
+    background: $color-red-1;
+    border: none;
+    color: $color-white-1;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color, box-shadow 0.3s ease;
   
+    &:hover {
+      background-color: $color-red-2;
+      box-shadow: 0 0 4px $color-red-2;
+    }
+  }
+  
+  
+.button--burger {
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url("../img/burger.svg");
+}
+.button--call {
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../img/call.svg");
+	&:hover {
+		box-shadow: 0 0 5px 0 rgb(173, 10, 10);
+		transform: scale(1.2);
+	}
+}
+.button--message {
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../img/message.svg");
+	&:hover {
+		box-shadow: 0 0 5px 0 rgb(173, 10, 10);
+		transform: scale(1.2);
+	}
+}
+.button--man {
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../img/man.svg");
+	&:hover {
+		box-shadow: 0 0 5px 0 rgb(173, 10, 10);
+		transform: scale(1.2);
+	}
+}
+.button--repair {
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../img/rapair.svg");
+	&:hover {
+		box-shadow: 0 0 5px 0 rgb(173, 10, 10);
+		transform: scale(1.2);
+	}
+}
+.button--search {
+	
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../img/search.svg");
+	&:hover {
+		box-shadow: 0 0 5px 0 rgb(173, 10, 10);
+		transform: scale(1.2);
+	}
+}
+.button--cloose {
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../img/icon.svg");
+	&:hover {
+		box-shadow: 0 0 5px 0 rgb(173, 10, 10);
+		transform: scale(1.2);
+	}
+}
+.burger-menu__lang-link--active {
+	color: $color_1;
+}
+.burger-menu__lang-link {
+	&:hover {
+		box-shadow: 0 0 5px 0$color-gray-4;
+	}
+}

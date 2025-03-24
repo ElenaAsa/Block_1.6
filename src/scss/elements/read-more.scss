@@ -34,7 +34,7 @@
   display: inline-block;
 }
 @media (min-width: $mq-mobile) {
-	.main__read-more {
+	.read-more {
 		position: relative;
 		background: none;
 		border: none;
@@ -53,3 +53,8 @@
 		}
   }
 }
+
+
+#more{display: none;}
+
+

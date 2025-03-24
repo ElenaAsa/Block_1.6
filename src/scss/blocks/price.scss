@@ -3,7 +3,7 @@
   height: 100%;
   overflow: hidden;
 }
-@media (min-width: 768px) {
+@media (min-width: $mq-tablet) {
   .price-list-container {
       height: auto;
       padding: 24px;
@@ -23,7 +23,7 @@
       }
 
 
-@media (min-width: 768px) {
+@media (min-width:$mq-tablet) {
   .price-list {
       display: flex;
       flex-direction: column;
@@ -42,14 +42,14 @@
   width: 260px;
   height: 200px;
   box-sizing: border-box;
-  background-color: #ffffff;
-  border: 1px solid #eaeaea;
+  background-color: $color-white-1;
+  border: 1px solid $color-gray-2;
   border-radius: 10px;
   padding-left: 16px;
   position: relative;
   padding-bottom: 16px;
 }
-@media (min-width: 768px) {
+@media (min-width:$mq-tablet) {
   .price-list__item {
       flex-direction: row;
       width: 100%;
@@ -71,7 +71,7 @@
   text-transform: uppercase;
   display: block;
   align-self: center;
-  color: white;
+  color:$color-white-1;
   font-weight: 500;
   font-size: 12px;
 }
@@ -79,17 +79,17 @@
 .price-list__item--hidden {
   display: none;
 }
-@media (min-width: 768px) {
+@media (min-width: $mq-tablet) {
   .price-list__item--hidden {
       display: flex;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: $mq-tablet) {
   .price-list__item::after {
       content: '';
       width: 96%;
       height: 2px;
-      background-color: #f8f8f8;
+      background-color:$color-gray-1;
       position: absolute;
       top: 62px;
       margin-left: 15px;
@@ -98,25 +98,25 @@
 }
 .price-list__heading {
   font-size: 14px;
-  color: #7e7e82;
+  color: $color-gray-4;
   padding-top: 16px;
 }
-@media (min-width: 768px) {
+@media (min-width: $mq-tablet) {
   .price-list__heading {
       display: flex;
   }
 }
-@media (min-width: 768px) {
+@media (min-width:$mq-tablet) {
   .price-list--hidden {
       display: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width:$mq-tablet) {
   .price-list--first-line {
       height: 28px;
-      color: #7e7e82;
+      color:$color-gray-4;
       padding-bottom: 12px;
-      background-color: #f8f8f8;
+      background-color:$color-gray-1;
   }
 }
 .price-list--second-line {
@@ -133,17 +133,17 @@
       padding-left: 16px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: $mq-tablet) {
   .price-list--table-column-second {
       width: 12%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width:$mq-tablet) {
   .price-list--table-column-third {
       width: 13%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: $mq-tablet) {
   .price-list--table-column-fourth {
       width: 119px;
   }
@@ -155,7 +155,7 @@
   left: 125px;
   top: 150px;
 }
-@media (min-width: 768px) {
+@media (min-width:$mq-tablet) {
   .red-button--price {
       display: flex;
       position: relative;
